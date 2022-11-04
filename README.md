@@ -35,6 +35,10 @@ processor = Wav2Vec2Processor.from_pretrained(model_name)
 
 Since our model has the same architecture as the English wav2vec2 version, you can use [this notebook](https://colab.research.google.com/drive/1FjTsqbYKphl9kL-eILgUc-bl4zVThL8F?usp=sharing) for more information on how to fine-tune the model.
 
+## Finetuned version
+
+You can find a finetuned version of base model on VLSP 2020 ASR dataset [here](https://huggingface.co/nguyenvulebinh/wav2vec2-base-vietnamese-250h). New finetuned version will be update soon (I hope 🤗).
+
 ## Contact 
 
 nguyenvulebinh@gmail.com / binh@vietai.org
