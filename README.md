@@ -17,6 +17,7 @@ Our self-supervised model is pre-trained on a massive audio set of 13k hours of 
 ## Download
 
 We have already upload our pre-trained model to the Huggingface. 
+
  - [Based version](https://huggingface.co/nguyenvulebinh/wav2vec2-base-vi) ~ 95M params
  - [Large version](https://huggingface.co/nguyenvulebinh/wav2vec2-large-vi) ~ 317M params
 
@@ -38,6 +39,11 @@ Since our model has the same architecture as the English wav2vec2 version, you c
 ## Finetuned version
 
 You can find a finetuned version of base model on VLSP 2020 ASR dataset [here](https://huggingface.co/nguyenvulebinh/wav2vec2-base-vietnamese-250h). New finetuned version will be update soon (I hope 🤗).
+
+## Acknowledgment
+
+- I would like to thank Google for the support of Cloud credits and TPU quota. 
+- Special thanks to my colleagues at [VietAI](https://vietai.org/) and [VAIS](https://vais.vn/) for their advice.
 
 ## Contact 
 
