@@ -13,10 +13,11 @@ Our self-supervised model is pre-trained on a massive audio set of 13k hours of 
   - Noise audio
   - Conversation
   - Multi-gender and dialects
+  
 
 ## Download
 
-We have already upload our pre-trained model to the Huggingface. 
+We have already upload our pre-trained model to the Huggingface. The base model trained 35 epochs and the large model trained 20 epochs in about 30 days using TPU V3-8.
 
  - [Based version](https://huggingface.co/nguyenvulebinh/wav2vec2-base-vi) ~ 95M params
  - [Large version](https://huggingface.co/nguyenvulebinh/wav2vec2-large-vi) ~ 317M params
