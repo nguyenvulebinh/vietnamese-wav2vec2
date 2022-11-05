@@ -4,7 +4,7 @@
 
 We use wav2vec2 architecture for doing Self-Supervised learning
 
-<img src="https://raw.githubusercontent.com/patrickvonplaten/scientific_images/master/wav2vec2.png" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/patrickvonplaten/scientific_images/master/wav2vec2.png" width=75% height=75%>
 
 ## Data
 
@@ -43,7 +43,7 @@ Since our model has the same architecture as the English wav2vec2 version, you c
 
 Benchmark WER result on VLSP T1 testset:
 
-| | [base model](https://huggingface.co/nguyenvulebinh/wav2vec2-base-vi-vlsp2020) | [large model](https://huggingface.co/nguyenvulebinh/wav2vec2-base-vi-vlsp2020) |
+| | [base model](https://huggingface.co/nguyenvulebinh/wav2vec2-base-vi-vlsp2020) | [large model](https://huggingface.co/nguyenvulebinh/wav2vec2-large-vi-vlsp2020) |
 |---|---|---|
 |without LM| 8.66  | 6.90 |
 |with 5-grams LM| 6.53 | 5.32 |
