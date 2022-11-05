@@ -84,7 +84,7 @@ print(processor.decode(output.logits.cpu().detach().numpy()[0], beam_width=100).
 
 ## Acknowledgment
 
-- I would like to thank Google for the support of Cloud credits and TPU quota. 
+- We would like to thank the Google TPU Research Cloud (TRC) program and Soonson Kwon (Google ML Ecosystem programs Lead) for their support.
 - Special thanks to my colleagues at [VietAI](https://vietai.org/) and [VAIS](https://vais.vn/) for their advice.
 
 ## Contact 
